@@ -1,0 +1,76 @@
+.hotel-card__icons-summ {
+    display: flex;
+    align-items: center
+}
+
+.hotel-card__icons-summ.hotel-details {
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.hotel-card__icons-summ.hotel-details .icons-summ__icon-item {
+    max-width: 21%
+}
+
+.hotel-card__icons-summ.hotel-details .icons-summ__plus-box {
+    position: relative;
+    top: 15px
+}
+
+@media(max-width: 991.98px) {
+    .hotel-card__icons-summ.hotel-details {
+        justify-content:left
+    }
+
+    .hotel-card__icons-summ.hotel-details .icons-summ__icon-item {
+        max-width: 12%
+    }
+}
+
+@media(max-width: 767.98px) {
+    .hotel-card__icons-summ.hotel-details {
+        justify-content:center
+    }
+}
+
+.hotel-card__icons-summ .icons-summ__icon-item {
+    text-align: center
+}
+
+.hotel-card__icons-summ .icons-summ__icon-item .title {
+    margin-top: 6px;
+    font-size: 9px
+}
+
+.hotel-card__icons-summ .icon--bg-image,.hotel-card__icons-summ .icons-summ__icon-item>svg,.hotel-card__icons-summ>svg {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-top;
+    color: #f60;
+    text-align: center
+}
+
+.hotel-card__icons-summ .icons-summ__plus-box {
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center
+}
+
+.hotel-card__icons-summ .icons-summ__plus-box svg {
+    display: block;
+    width: 12px;
+    height: 12px;
+    color: #535353;
+    text-align: center
+}
+
+@media(max-width: 767.98px) {
+    .hotel-card__icons-summ .icons-summ__plus-box {
+        margin:0 16px
+    }
+
+    .hotel-card__icons-summ {
+        justify-content: center
+    }
+}

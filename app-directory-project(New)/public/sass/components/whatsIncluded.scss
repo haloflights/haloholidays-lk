@@ -1,0 +1,13 @@
+.whats_included_container{
+@media (max-width: 768px) {
+    width: 10px;
+    // column-count: 3;
+    .hotel {
+    column-count: 3;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        padding-left: 0;  
+    }
+  }
+}
