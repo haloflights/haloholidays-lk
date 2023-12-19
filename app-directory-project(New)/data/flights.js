@@ -1,14 +1,14 @@
 module.exports = [
   {
     id: 1,
-    price: "934",
-    deals: "16",
+    price: "219,000",
+    bag: "43kg",
     delayAnimation: "100",
     selectId: "collapse_1",
     flightList: [
       {
         id: 1,
-        avatar: "/img/flightIcons/1.png",
+        avatar: "/img/flightIcons/3.webp",
         arrivalAirport: "SAW",
         departureAirport: "STN",
         departureTime: "14:00",
@@ -28,8 +28,8 @@ module.exports = [
   },
   {
     id: 2,
-    price: "690",
-    deals: "12",
+    price: "239,000",
+    bag: "30kg",
     selectId: "collapse_2",
     delayAnimation: "200",
     flightList: [
@@ -55,8 +55,8 @@ module.exports = [
   },
   {
     id: 3,
-    price: "999",
-    deals: "17",
+    price: "329,000",
+    bag: "23kg",
     delayAnimation: "300",
     selectId: "collapse_3",
     flightList: [
@@ -83,8 +83,8 @@ module.exports = [
   {
     id: 4,
     delayAnimation: "400",
-    price: "859",
-    deals: "15",
+    price: "299,000",
+    bag: "25kg",
     selectId: "collapse_4",
     flightList: [
       {
@@ -109,8 +109,8 @@ module.exports = [
   },
   {
     id: 5,
-    price: "934",
-    deals: "16",
+    price: "339,900",
+    bag: "25kg",
     selectId: "collapse_5",
     delayAnimation: "500",
     flightList: [
@@ -136,8 +136,8 @@ module.exports = [
   },
   {
     id: 6,
-    price: "690",
-    deals: "12",
+    price: "379,990",
+    bag: "33kg",
     selectId: "collapse_6",
     delayAnimation: "600",
     flightList: [

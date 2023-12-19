@@ -62,16 +62,16 @@ const Flights = () => {
               <div className="col-auto">
                 <div className="d-flex items-center">
                   <div className="text-right mr-24">
-                    <div className="lh-15 fw-500">US${item?.price}</div>
+                    <div className="lh-15 fw-500">LKR {item?.price}</div>
                     <div className="text-15 lh-15 text-light-1">
-                      {item?.deals} deals
+                      {item?.bag} Allowance
                     </div>
                   </div>
                   <Link
-                    href="/flight-list-v1"
+                    href="/enquiry"
                     className="button -outline-blue-1 px-30 h-50 text-blue-1"
                   >
-                    View Deal <div className="icon-arrow-top-right ml-15" />
+                    Enquire <div className="icon-arrow-top-right ml-15" />
                   </Link>
                 </div>
               </div>

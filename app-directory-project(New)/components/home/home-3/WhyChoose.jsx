@@ -22,6 +22,7 @@ const WhyChoose = () => {
       id: 3,
       icon: "/img/featureIcons/3/space.gif",
       title: "Pay in Instalments!",
+      tagline: "No Credit Card Needed",
       text: `Facilitating payments in convenient instalments, our support ensures your financial ease and satisfaction.`,
       delayAnimation: "300",
     },
@@ -54,7 +55,7 @@ const WhyChoose = () => {
               />
             </div>
             <div className="text-center mt-30">
-              <h4 className="text-18 fw-500">{item.title}</h4>
+              <h4 className="text-18 fw-500">{item.title}<br/>{item.tagline}</h4>
               <p className="text-15 mt-10">{item.text}</p>
             </div>
           </div>

@@ -5,8 +5,8 @@ import DefaultFooter from "@/components/footer/default";
 import Enquiry_Popup from "@/components/common/Inquire_Popup";
 
 export const metadata = {
-  title: "Sign Up || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Enquiry || Halo Flights LK - Here For You",
+  description: "Halo Flights LK - Here For You",
 };
 
 const Enquire = () => {
