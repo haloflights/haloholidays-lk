@@ -2,7 +2,7 @@ const Address = () => {
   const addressContent = [
     {
       id: 1,
-      colClass: "col-lg-3",
+      colClass: "col-lg-4",
       title: "Address",
       content: (
         <>Access Tower II, Union Place, Colombo 02</>
@@ -14,7 +14,7 @@ const Address = () => {
       title: "Toll Free Customer Care",
       content: (
         <>
-          <a href="tel:+4733378901">+94 70 454 5455</a>
+          <a href="tel:+94704545455">+94 70 454 5455</a>
         </>
       ),
     },
@@ -25,7 +25,7 @@ const Address = () => {
       content: (
         <>
           {" "}
-          <a href="mailto:i@gotrip.com">contact@haloflights.lk</a>
+          <a href="mailto:contact@haloholidays.lk">contact@haloholidays.lk</a>
         </>
       ),
     },

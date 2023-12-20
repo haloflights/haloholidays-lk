@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import Header3 from "@/components/header/header-3";
-import Hero3 from "@/components/hero/hero-1";
+import Hero1 from "@/components/hero/hero-1";
 import Link from "next/link";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
@@ -23,7 +23,7 @@ const home_3 = () => {
       <Header3 />
       {/* End Header 3 */}
 
-      <Hero3 />
+      <Hero1 />
       {/* End Hero 3 */}
 
       {/* <section className="layout-pt-lg layout-pb-md">
@@ -128,7 +128,7 @@ const home_3 = () => {
           <div className="col-auto ">
               <div className="d-flex x-gap-19 items-center ml-1000 ">
                 <div className="col-auto">
-                  <button className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev">
+                  <button name="home-btn1" className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev">
                     <i className="icon icon-arrow-left " />
                   </button>
                 </div>
@@ -140,7 +140,7 @@ const home_3 = () => {
                 {/* End pagination */}
 
                 <div className="col-auto">
-                  <button className="d-flex items-center text-24 arrow-right-hover js-tour-type-next ">
+                  <button name="home-btn2" className="d-flex items-center text-24 arrow-right-hover js-tour-type-next ">
                     <i className="icon icon-arrow-right" />
                   </button>
                 </div>

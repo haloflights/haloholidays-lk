@@ -68,7 +68,7 @@ const Header1 = () => {
                   {/* End Megamenu for Language */}
                 </div>
                 {/* End language and currency selector */}
-                <HeaderSearch />
+                {/* <HeaderSearch /> */}
 
                 {/* Start btn-group */}
                 <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">

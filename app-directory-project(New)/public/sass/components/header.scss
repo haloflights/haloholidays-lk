@@ -205,6 +205,9 @@
         a {
           cursor: pointer;
         }
+        &:hover {
+          color: #4905a0;
+        }
 
         &.menu-item-has-children:hover {
           > .subnav {
