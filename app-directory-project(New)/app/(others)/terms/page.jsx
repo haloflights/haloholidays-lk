@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import CallToActions from "@/components/common/CallToActions";
-import DefaultHeader from "@/components/header/default-header";
+import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TermsConent from "@/components/common/TermsConent";
 
@@ -17,7 +17,7 @@ const Terms = () => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
+      <Header3 />
       {/* End Header 1 */}
 
       <section className="layout-pt-lg layout-pb-lg">

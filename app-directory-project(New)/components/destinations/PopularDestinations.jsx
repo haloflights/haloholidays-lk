@@ -65,7 +65,7 @@ const PopularDestinations = () => {
                   <h4 className="text-26 md:text-20 lh-13 text-white mb-20">
                     {item.city}
                   </h4>
-                  <button name="dest-btn1" className="button col-12 h-60 -blue-1 bg-white text-dark-1">
+                  <button aria-label="Discover" className="button col-12 h-60 -blue-1 bg-white text-dark-1">
                     Discover
                   </button>
                 </div>
@@ -76,10 +76,10 @@ const PopularDestinations = () => {
       </Swiper>
 
       <div>
-        <button name="dest-btn2" className="section-slider-nav  -prev flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-destination-prev">
+        <button aria-label="Previous" className="section-slider-nav  -prev flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-destination-prev">
           <i className="icon icon-chevron-left text-12" />
         </button>
-        <button name="dest-btn3" className="section-slider-nav -next flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-destination-next">
+        <button aria-label="Next" className="section-slider-nav -next flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-destination-next">
           <i className="icon icon-chevron-right text-12" />
         </button>
         <div className="slider-scrollbar bg-light-2 mt-40  js-popular-destination-scrollbar" />

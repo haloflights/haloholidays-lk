@@ -73,12 +73,12 @@ const Testimonial = () => {
         ))}
       </Swiper>
 
-      <button name="tsm-btn1" className="section-slider-nav -prev flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-hm4tm-prev-active">
+      <button aria-label="Previous" className="section-slider-nav -prev flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-hm4tm-prev-active">
         <i className="icon icon-chevron-left text-12" />
       </button>
       {/* End js-prev */}
 
-      <button name="tsm-btn2" className="section-slider-nav -next flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-hm4tm-next-active">
+      <button aria-label="Next" className="section-slider-nav -next flex-center button -blue-1 bg-white shadow-1 size-40 rounded-full sm:d-none js-hm4tm-next-active">
         <i className="icon icon-chevron-right text-12" />
       </button>
       {/* End js-next */}

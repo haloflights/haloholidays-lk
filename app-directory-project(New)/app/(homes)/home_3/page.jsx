@@ -128,7 +128,7 @@ const home_3 = () => {
           <div className="col-auto ">
               <div className="d-flex x-gap-19 items-center ml-1000 ">
                 <div className="col-auto">
-                  <button name="home-btn1" className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev">
+                  <button aria-label="Previous" className="d-flex items-right text-24 arrow-right-hover js-tour-type-prev">
                     <i className="icon icon-arrow-left " />
                   </button>
                 </div>
@@ -140,7 +140,7 @@ const home_3 = () => {
                 {/* End pagination */}
 
                 <div className="col-auto">
-                  <button name="home-btn2" className="d-flex items-center text-24 arrow-right-hover js-tour-type-next ">
+                  <button aria-label="Next" className="d-flex items-center text-24 arrow-right-hover js-tour-type-next ">
                     <i className="icon icon-arrow-right" />
                   </button>
                 </div>
@@ -160,7 +160,7 @@ const home_3 = () => {
                 <h2 className="sectionTitle__title">
                   Overheard from Travelers
                 </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <p className=" sectionTitle__text mt-5 sm:mt-0 text-light-4">
                   These popular destinations have a lot to offer
                 </p>
               </div>
