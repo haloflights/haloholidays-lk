@@ -62,9 +62,9 @@ const PopularDestinations = () => {
                   {/* <div className="text-14 text-white">{item.hoverText}</div> */}
                 </div>
                 <div className="citiesCard__bottom">
-                  <h4 className="text-26 md:text-20 lh-13 text-white mb-20">
+                  <h3 className="text-26 md:text-20 lh-13 text-white mb-20">
                     {item.city}
-                  </h4>
+                  </h3>
                   <button aria-label="Discover" className="button col-12 h-60 -blue-1 bg-white text-dark-1">
                     Discover
                   </button>

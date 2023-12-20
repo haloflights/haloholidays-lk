@@ -48,9 +48,9 @@ const TourCategories = () => {
                   <i
                     className={`${item.icon} text-50 sm:text-30 text-blue-1`}
                   ></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">
+                  <h3 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">
                     {item.name}
-                  </h4>
+                  </h3>
                   <p className="text-light-1 lh-14 text-14 mt-5">
                     Holidays
                   </p>

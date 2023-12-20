@@ -44,7 +44,7 @@ const Testimonial = () => {
               data-aos-delay={item.dealyAnimation}
             >
               <div style={{ height: "250px" }}>
-              <h4 className="text-16 fw-500 text-blue-1 mb-20">{item.meta}</h4>
+              <h3 className="text-16 fw-500 text-blue-1 mb-20">{item.meta}</h3>
               <p className="testimonials__text lh-16 fw-400 text-dark-1 ">
                 {item.text}
               </p>

@@ -15,7 +15,7 @@ const DateSearch = () => {
       <DatePicker
         inputClass="custom_input-picker"
         containerClassName="custom_container-picker"
-        value={dates}
+        placeholder="Select Dates"
         onChange={setDates}
         numberOfMonths={2}
         offsetY={10}

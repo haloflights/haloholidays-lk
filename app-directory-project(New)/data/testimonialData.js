@@ -43,7 +43,7 @@ export const testimonial1 = [
 export const testimonial2 = [
   {
     id: 1,
-    meta: "Halo Flights LK",
+    meta: "Halo Holidays",
     avatar: "/img/avatars/user.png",
     name: "Ranil Victor",
     designation: "Google Reviews",
@@ -54,7 +54,7 @@ export const testimonial2 = [
   },
   {
     id: 2,
-    meta: "Halo Flights LK",
+    meta: "Halo Holidays",
     avatar: "/img/avatars/user.png",
     name: "Farhan Lee",
     designation: "Google Reviews",
@@ -63,7 +63,7 @@ export const testimonial2 = [
   },
   {
     id: 3,
-    meta: "Halo Flights LK",
+    meta: "Halo Holidays",
     avatar: "/img/avatars/user.png",
     name: "Yashoda Chandrasekara",
     designation: "Google Reviews",
@@ -72,7 +72,7 @@ export const testimonial2 = [
   },
   {
     id: 4,
-    meta: "Halo Flights LK",
+    meta: "Halo Holidays",
     avatar: "/img/avatars/user.png",
     name: "Aashik Ansar",
     designation: "Google Reviews",
@@ -82,7 +82,7 @@ export const testimonial2 = [
   
   {
     id: 5,
-    meta: "Halo Flights LK",
+    meta: "Halo Holidays",
     avatar: "/img/avatars/user.png",
     name: "Sabeena Nazeer",
     designation: "Google Reviews",
