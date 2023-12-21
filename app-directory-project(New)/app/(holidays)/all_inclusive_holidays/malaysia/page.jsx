@@ -8,8 +8,6 @@ import SidebarRight from "@/components/holidays/malaysia/SidebarRight";
 import SidebarRight2 from "@/components/holidays/malaysia/SidebarRight2";
 import ReviewProgress from "@/components/holidays/malaysia/guest-reviews/ReviewProgress";
 import DetailsReview from "@/components/holidays/malaysia/guest-reviews/DetailsReview";
-import ReplyForm from "@/components/holidays/malaysia/ReplyForm";
-import ReplyFormReview from "@/components/holidays/malaysia/ReplyFormReview";
 import Facilities from "@/components/holidays/malaysia/Facilities";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
