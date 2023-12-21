@@ -2,7 +2,7 @@ const Overview = () => {
   return (
     <div className="row x-gap-80 y-gap-40 pt-40">
       <div className="col-12">
-        <h3 className="text-22 fw-500">Overview</h3>
+        <h2 className="text-22 fw-500">Overview</h2>
         <p className="text-dark-1 text-15 mt-20">
         Experience the ultimate luxury vacation in Dubai with Halo Flights! Our Dubai Luxury Tour Package includes everything you need to create unforgettable memories, from round-trip business class flights and 5-star hotel accommodations to VIP airport transfers and thrilling activities.
 Explore Dubai’s iconic landmarks, such as the Burj Khalifa and the Dubai Mall, and indulge in its world-class shopping and dining. Embark on a private desert safari for an exhilarating adventure and immerse yourself in the city’s rich culture and traditions.

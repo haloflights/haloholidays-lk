@@ -53,9 +53,9 @@ const TopDestinations2 = () => {
                 />
               </div>
               <div className="citiesCard__content mt-10">
-                <h4 className="text-18 lh-13 fw-500 text-dark-1 text-capitalize">
+                <h3 className="text-18 lh-13 fw-500 text-dark-1 text-capitalize">
                   {item.location}
-                </h4>
+                </h3>
                 
               </div>
             </Link>
@@ -64,10 +64,10 @@ const TopDestinations2 = () => {
       </Swiper>
 
       {/* Start naviation button for next prev slide */}
-      <button className="section-slider-nav -prev flex-center bg-white text-dark-1 size-40 rounded-full shadow-1 sm:d-none  js-top-desti2-prev_active">
+      <button aria-label="Previous" className="section-slider-nav -prev flex-center bg-white text-dark-1 size-40 rounded-full shadow-1 sm:d-none  js-top-desti2-prev_active">
         <i className="icon icon-chevron-left text-12" />
       </button>
-      <button className="section-slider-nav -next flex-center bg-white text-dark-1 size-40 rounded-full shadow-1 sm:d-none  js-top-desti2-next_active">
+      <button aria-label="Next" className="section-slider-nav -next flex-center bg-white text-dark-1 size-40 rounded-full shadow-1 sm:d-none  js-top-desti2-next_active">
         <i className="icon icon-chevron-right text-12" />
       </button>
       {/* End navigation button for next prev  slide */}

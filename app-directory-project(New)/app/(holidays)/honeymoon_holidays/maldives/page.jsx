@@ -49,6 +49,7 @@ const maldives = () => {
               <div className="d-flex x-gap-5 items-center pt-5">
                 <i className="icon-location-2 text-16 text-light-1" />
                 <button
+                  aria-label="Show on Map"
                   data-x-click="mapFilter"
                   className="text-15 text-blue-1 underline">
                   <a href="#mapSection">Show on Map</a>
@@ -60,7 +61,7 @@ const maldives = () => {
             <div className="col-auto">
               <div className="row x-gap-10 y-gap-10">
                 <div className="col-auto">
-                  <button className="button px-15 py-10 -blue-1">
+                  <button aria-label="Share" className="button px-15 py-10 -blue-1">
                     <i className="icon-share mr-10" />
                     Share
                   </button>
@@ -68,7 +69,7 @@ const maldives = () => {
                 {/* End .col-auto */}
 
                 <div className="col-auto">
-                  <button className="button px-15 py-10 -blue-1 bg-light-2">
+                  <button aria-label="Save" className="button px-15 py-10 -blue-1 bg-light-2">
                     <i className="icon-heart mr-10" />
                     Save
                   </button>
@@ -115,7 +116,7 @@ const maldives = () => {
         <div className="container border-top-light pt-40">
           <div className="row x-gap-40 y-gap-40">
             <div className="col-12">
-              <h3 className="text-22 fw-500">Facilities of this Holiday</h3>
+              <h2 className="text-22 fw-500">Facilities of this Holiday</h2>
               <div className="row x-gap-40 y-gap-40 pt-20">
                 <Facilities />
               </div>
@@ -131,7 +132,7 @@ const maldives = () => {
 
       <section id="mapSection" className="pt-40">
         <div className="container">
-          <h3 className="text-22 fw-500 mb-20">Holiday Location</h3>
+          <h2 className="text-22 fw-500 mb-20">Holiday Location</h2>
           <div className=" rounded-4 overflow-hidden map-500">
             <MapPropertyFinder />
           </div>
@@ -143,7 +144,7 @@ const maldives = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="text-22 fw-500">Guest reviews</h3>
+              <h2 className="text-22 fw-500">Guest reviews</h2>
             </div>
           </div>
           {/* End .row */}

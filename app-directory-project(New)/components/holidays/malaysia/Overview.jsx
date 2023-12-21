@@ -2,7 +2,7 @@ const Overview = () => {
   return (
     <div className="row x-gap-80 y-gap-40 pt-40">
       <div className="col-12">
-        <h3 className="text-22 fw-500">Overview</h3>
+        <h2 className="text-22 fw-500">Overview</h2>
         <p className="text-dark-1 text-15 mt-20">
         Malaysia, a diverse and vibrant country in Southeast Asia, is a popular tourist destination for its stunning natural beauty, rich culture, and affordable prices. From the bustling city of Kuala Lumpur to the pristine beaches of Langkawi, Malaysia has something to offer everyone.
 Visitors can enjoy hiking through lush rainforests, exploring ancient temples and mosques, sampling delicious cuisine, and shopping at vibrant markets. Malaysia is also home to a number of unique wildlife attractions, including the Sepilok Orangutan Rehabilitation Centre and the Kinabalu National Park, home to Mount Kinabalu, the highest mountain in Borneo.

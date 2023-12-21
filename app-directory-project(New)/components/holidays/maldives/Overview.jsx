@@ -2,7 +2,7 @@ const Overview = () => {
   return (
     <div className="row x-gap-80 y-gap-40 pt-40">
       <div className="col-12">
-        <h3 className="text-22 fw-500">Overview</h3>
+        <h2 className="text-22 fw-500">Overview</h2>
         <p className="text-dark-1 text-15 mt-20">
         The Maldives is a tropical paradise known for its crystal-clear waters, white-sand beaches, and lush palm trees. With our Maldives tour packages from Sri Lanka, you can experience the best of the Maldives, without breaking the bank.
 Our packages include everything you need for a perfect vacation, including round-trip flights, airport transfers, accommodation, meals, and a variety of activities and excursions.

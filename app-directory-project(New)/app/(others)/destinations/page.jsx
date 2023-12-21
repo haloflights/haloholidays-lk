@@ -4,7 +4,6 @@ import Header3 from "@/components/header/header-3";
 import DefaultFooter from "@/components/footer/default";
 import TopDestinations2 from "@/components/destinations/TopDestinations2";
 import Faq from "@/components/faq/Faq";
-import TestimonialLeftCol from "@/components/home/home-1/TestimonialLeftCol";
 import Testimonial from "@/components/destinations/Testimonial";
 import Link from "next/link";
 import Slights from "@/components/block/Slights";
@@ -13,12 +12,6 @@ import LocationTopBar from "@/components/common/LocationTopBar";
 import Banner from "@/components/destinations/components/Banner";
 import Categories from "@/components/destinations/components/Categories";
 import IntroTown from "@/components/destinations/components/IntroTown";
-import Weather from "@/components/destinations/components/Weather";
-import GeneralInfo from "@/components/destinations/components/GeneralInfo";
-import Cars from "@/components/cars/Cars";
-import Tours from "@/components/tours/Tours";
-import Activity from "@/components/activity/Activity";
-import Rentals from "@/components/rentals/Rentals";
 import Hotels from "@/components/hotels/Hotels2";
 
 export const metadata = {
@@ -171,7 +164,7 @@ const Destinations = () => {
                 <h2 className="sectionTitle__title">
                   Overheard from Travelers
                 </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <p className=" sectionTitle__text mt-5 sm:mt-0 text-light-4">
                   These popular destinations have a lot to offer
                 </p>
               </div>

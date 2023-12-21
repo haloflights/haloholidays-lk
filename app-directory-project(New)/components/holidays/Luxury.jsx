@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import FilterHotelsTabs from "./filter-tabs/FilterHotelsTabs";
-import FilterHotels from "./FilterHotels";
+import FilterHotels from "./FilterDestinations";
 
-export default function FilterHotels3() {
+export default function Luxury() {
   const [filterOption, setFilterOption] = useState("hotel");
   return (
     <section className="layout-pt-md layout-pb-lg">
@@ -20,12 +20,12 @@ export default function FilterHotels3() {
           </div>
           {/* End .col-auto */}
 
-          {/* <div className="col-auto tabs -pills-2 ">
+          <div className="col-auto tabs -pills-2 ">
             <FilterHotelsTabs
               filterOption={filterOption}
               setFilterOption={setFilterOption}
             />
-          </div> */}
+          </div>
           {/* End .col-auto */}
         </div>
         {/* End .row */}

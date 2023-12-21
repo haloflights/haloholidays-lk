@@ -21,7 +21,7 @@ const HighlightList = () => {
         <Link
         href="/enquiry"
         className="button -dark-2 py-15 px-35 h-40 col-12 rounded-4 bg-blue-1">
-        <button className="text-white">  
+        <button aria-label="Enquire Now" className="text-white">  
           
           Enquire Now
         </button>

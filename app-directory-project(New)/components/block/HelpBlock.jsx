@@ -49,7 +49,7 @@ const HelpBlock = () => {
             </div>
             <div className="mt-24">
               <div className="text-18 fw-500">{item.title}</div>
-              <p className="mt-5">{item.text}</p>
+              <p className="mt-5 text-light-4">{item.text}</p>
             </div>
           </div>
         </div>

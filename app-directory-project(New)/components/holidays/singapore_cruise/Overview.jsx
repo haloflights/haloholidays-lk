@@ -2,7 +2,7 @@ const Overview = () => {
   return (
     <div className="row x-gap-80 y-gap-40 pt-40">
       <div className="col-12">
-        <h3 className="text-22 fw-500">Overview</h3>
+        <h2 className="text-22 fw-500">Overview</h2>
         <p className="text-dark-1 text-15 mt-20">
         Singapore is a vibrant and cosmopolitan city-state located in Southeast Asia. It is a popular tourist destination for its multicultural population, delicious food, and stunning architecture. Singapore is also a major financial and commercial hub, and it is home to some of the world’s largest and most prestigious companies.
 Singapore cruises are a great way to see the best of Singapore and the surrounding region. Cruises typically depart from Singapore and visit a variety of ports in Southeast Asia, such as Penang, Malacca, and Phuket.

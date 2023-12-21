@@ -63,12 +63,12 @@ const GalleryCruiseSlider = () => {
             </Swiper>
 
             <div className="cruiseSlider__nav -prev js-prev">
-              <button className="button -outline-white size-50 flex-center text-white rounded-full">
+              <button aria-label="Previous" className="button -outline-white size-50 flex-center text-white rounded-full">
                 <i className="icon-arrow-left" />
               </button>
             </div>
             <div className="cruiseSlider__nav -next js-next">
-              <button className="button -outline-white size-50 flex-center text-white rounded-full">
+              <button aria-label="Next" className="button -outline-white size-50 flex-center text-white rounded-full">
                 <i className="icon-arrow-right" />
               </button>
             </div>

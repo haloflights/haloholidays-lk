@@ -107,7 +107,7 @@ const Hotels2 = () => {
                   </Slider>
 
                   <div className="cardImage__wishlist">
-                    <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                    <button aria-label="like" className="button -blue-1 bg-white size-30 rounded-full shadow-2">
                       <i className="icon-heart text-12" />
                     </button>
                   </div>
@@ -134,9 +134,9 @@ const Hotels2 = () => {
                 </div>
               </div>
               <div className="hotelsCard__content mt-10">
-                <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                <h3 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
                   <span>{item?.title}</span>
-                </h4>
+                </h3>
                 <p className="text-light-1 lh-14 text-14 mt-5">
                   {item?.location}
                 </p>

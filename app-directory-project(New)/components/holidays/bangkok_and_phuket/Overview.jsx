@@ -2,7 +2,7 @@ const Overview = () => {
   return (
     <div className="row x-gap-80 y-gap-40 pt-40">
       <div className="col-12">
-        <h3 className="text-22 fw-500">Overview</h3>
+        <h2 className="text-22 fw-500">Overview</h2>
         <p className="text-dark-1 text-15 mt-20">
         Bangkok, the capital of Thailand, is a vibrant and bustling city with something to offer everyone. From its stunning temples and palaces to its world-class shopping and dining, Bangkok is a city that will leave you breathless.
 Phuket is Thailand’s largest island and is known for its stunning beaches, crystal-clear waters, and lush rainforests. Phuket is a popular destination for tourists from all over the world, and it’s easy to see why.

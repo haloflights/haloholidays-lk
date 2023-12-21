@@ -39,7 +39,7 @@ const ReviewProgress = ({ holiday }) => {
             <div className="text-center">
               <div className="text-60 md:text-50 fw-600 text-blue-1">{holiday.ratings}</div>
               <div className="fw-500 lh-1">Exceptional</div>
-              <div className="text-14 text-light-1 lh-1 mt-5">
+              <div className="text-14 text-light-4 lh-1 mt-5">
                 3,014 reviews
               </div>
             </div>

@@ -40,12 +40,12 @@ const Categories = () => {
   };
 
   const catContent = [
-    { id: 1, icon: "icon-nature", catName: "Family", catType: "Holidays", url: "/family_holidays" },
-    { id: 2, icon: "icon-destination", catName: "Multi-City", catType: "Holidays", url: "/multi_city_holidays" },
-    { id: 4, icon: "icon-home", catName: "Luxury", catType: "Holidays", url: "/luxury_holidays" },
-    { id: 5, icon: "icon-tickets", catName: "All Inclusive", catType: "Holidays", url: "/all_inclusive_holidays" },
-    { id: 5, icon: "icon-heart", catName: "Honeymoon", catType: "Holidays", url: "/honeymoon_holidays" },
-    { id: 6, icon: "icon-yatch", catName: " Cruise", catType: "Holidays", url: "/cruise_holidays" },
+    { id: 1, icon: "icon-nature", catName: "Family", catType: "Holidays", url: "/family_holidays", name: "Family Holidays" },
+    { id: 2, icon: "icon-destination", catName: "Multi-City", catType: "Holidays", url: "/multi_city_holidays", name: "Multi-City Holidays" },
+    { id: 4, icon: "icon-home", catName: "Luxury", catType: "Holidays", url: "/luxury_holidays", name: "Luxury Holidays" },
+    { id: 5, icon: "icon-tickets", catName: "All Inclusive", catType: "Holidays", url: "/all_inclusive_holidays", name: "All Inclusive Holidays" },
+    { id: 5, icon: "icon-heart", catName: "Honeymoon", catType: "Holidays", url: "/honeymoon_holidays", name: "Honeymoon Holidays" },
+    { id: 6, icon: "icon-yatch", catName: " Cruise", catType: "Holidays", url: "/cruise_holidays", name: "Cruise Holidays" },
     
   ];
   return (
@@ -53,7 +53,7 @@ const Categories = () => {
       {catContent.map((item) => (
         <div className="col" key={item.id}>
           <a href={item.url}>
-          <button className="d-flex flex-column justify-center px-10 py-15 rounded-4 border-light text-16 lh-14 fw-500 col-12">
+          <button aria-label={item.name} className="d-flex flex-column justify-center px-10 py-15 rounded-4 border-light text-16 lh-14 fw-500 col-12">
             <i className={`${item.icon} text-25 mb-10`} />
             {item.catName} {item.catType}
             

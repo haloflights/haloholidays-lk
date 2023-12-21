@@ -135,7 +135,7 @@ const About = () => {
                 <h2 className="sectionTitle__title">
                   Overheard from Travelers
                 </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                <p className=" sectionTitle__text mt-5 sm:mt-0 text-light-4">
                   These popular destinations have a lot to offer
                 </p>
               </div>

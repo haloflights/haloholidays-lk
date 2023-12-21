@@ -66,7 +66,7 @@ const Team1 = () => {
         </>
       );
     return (
-      <button className={name} onClick={props.onClick}>
+      <button aria-label="Next" className={name} onClick={props.onClick}>
         {char}
       </button>
     );
