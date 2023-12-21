@@ -42,7 +42,7 @@ const Header1 = () => {
                 {/* End logo */}
 
                 <div className="header-menu">
-                  <div className="header-menu__content">
+                  <div className="header-menu__content mt-5">
                     <MainMenu style="text-dark-1" />
                   </div>
                 </div>
@@ -74,7 +74,7 @@ const Header1 = () => {
                 <div className="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
                   <Link
                     href="tel:1302522656"
-                    className="button px-30 fw-500 text-14 -dark-2 bg-blue-1 h-50 text-white"
+                    className="button px-30 fw-500 text-14 -dark-2 bg-blue-1 h-40 text-white"
                   >
                     Call Us Now
                   </Link>
@@ -91,6 +91,7 @@ const Header1 = () => {
                   </div> */}
                   <div>
                     <button
+                      aria-label="Mobile Sidebar"
                       className="d-flex items-center icon-menu text-inherit text-20"
                       data-bs-toggle="offcanvas"
                       aria-controls="mobile-sidebar_menu"
