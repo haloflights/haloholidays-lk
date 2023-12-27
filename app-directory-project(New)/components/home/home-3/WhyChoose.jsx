@@ -4,7 +4,7 @@ const WhyChoose = () => {
   const blockContent = [
     {
       id: 1,
-      icon: "/img/featureIcons/1/24-hours-support.gif",
+      icon: "/img/featureIcons/support.svg",
       title: "Customer Support",
       tagline: "24/7",
       text: `Always available for assistance, our customer support ensures timely help and satisfaction.`,
@@ -12,7 +12,7 @@ const WhyChoose = () => {
     },
     {
       id: 2,
-      icon: "/img/featureIcons/2/pound-sterling.gif",
+      icon: "/img/featureIcons/discount.svg",
       title: "Unbeatable",
       tagline: "Prices",
       text: `Providing unbeatable prices, our customer support ensures timely help and satisfaction.`,
@@ -20,7 +20,7 @@ const WhyChoose = () => {
     },
     { 
       id: 3,
-      icon: "/img/featureIcons/3/space.gif",
+      icon: "/img/featureIcons/quote-request.svg",
       title: "Pay in Instalments!",
       tagline: "No Credit Card Needed",
       text: `Facilitating payments in convenient instalments, our support ensures your financial ease and satisfaction.`,
@@ -28,7 +28,7 @@ const WhyChoose = () => {
     },
     {
       id : 4,
-      icon: "/img/featureIcons/3/route.gif",
+      icon: "/img/featureIcons/booking.svg",
       title : "Visa",
       tagline: "Assistance",
       text: `For seamless visa assistance, our customer support ensures efficient guidance and satisfaction.`,
@@ -47,8 +47,8 @@ const WhyChoose = () => {
           <div className="featureIcon -type-1 ">
             <div className="d-flex justify-center">
               <Image
-                width={70}
-                height={70}
+                width={50}
+                height={50}
                 src={item.icon}
                 alt="image"
                 className="js-lazy"
