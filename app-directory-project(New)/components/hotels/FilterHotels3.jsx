@@ -5,7 +5,7 @@ import FilterHotelsTabs from "./filter-tabs/FilterHotelsTabs";
 import FilterHotels from "./FilterHotels";
 
 export default function FilterHotels3() {
-  const [filterOption, setFilterOption] = useState("hotel");
+  const [filterOption, setFilterOption] = useState("europe");
   return (
     <section className="layout-pt-md layout-pb-lg">
       <div className="container">
